@@ -2,6 +2,8 @@ body {
     display: grid;
     grid-column: 1 / 4;
     font-size: 20px;
+    font-family: "Playwrite Deutschland Grundschrift", sans-serif;
+
 }
     
 header h1 {   
@@ -41,9 +43,16 @@ main {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
+.card ul {
+    margin-top: 100px;
+}
+.card li {
+    padding: 1rem;
+}
 
 img {
     display: block;
+    margin: 0 auto;
 }
 
 .state p {
@@ -81,7 +90,7 @@ img {
     padding: 0.75rem;
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 
