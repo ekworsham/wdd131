@@ -20,6 +20,8 @@ header h1 {
 main {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .card {
@@ -90,7 +92,10 @@ img {
     padding: 0.75rem;
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
+}
+.navigation a:hover{
+    text-decoration: overline;
 }
 
 
