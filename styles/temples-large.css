@@ -11,28 +11,8 @@
     ul.menuLinks a:hover {
         background-color: rgba(255,255,255,0.2);
     }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    } 
 }
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    
-    /* grid-template-columns: 1fr 1fr 1fr;  
-    gap: 10px;
-    margin: 0 0 0 102px;
-    padding: 0; */
-} 
-main h2 {
-    grid-column: 1 / 4;
-}
-
-/* @media (max-width: 900px) {
-    main {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
-@media (max-width: 600px) {
-    main {
-        grid-template-columns: 1fr;
-    }
-} */
