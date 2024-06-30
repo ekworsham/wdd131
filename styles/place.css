@@ -1,0 +1,67 @@
+html {
+    max-width: 1000px;
+} 
+header {
+    text-align: center;
+    color: white;
+    background-color: rgb(224, 42, 42);
+    border-bottom: 1.5rem solid rgb(0, 0, 0);
+    padding: 1px;
+}
+
+.georgia img{
+    width: 100%;
+    height: auto;  
+}
+
+#data h2, #weather h2 {
+    text-align: center;
+    grid-column: 1/3;
+}
+
+#data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#weather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+    grid-template-rows: 40px 1fr 1fr;
+}
+
+#weather h2 {
+    margin: 0 auto;
+
+}
+
+#label {
+    grid-column: 1/2;
+    text-align: right;
+    list-style: none;
+    margin: 0 auto;
+}
+
+#value {
+    padding-left: 10px;
+    grid-column: 2/3;
+    text-align: left;
+    list-style: none;
+    margin: 0 auto;   
+}
+
+#weather img {
+    grid-column: 1/3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;   
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(224, 42, 42);
+    color: white;
+    padding: 10px;
+}

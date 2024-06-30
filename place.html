@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Georgia</title>
+        <meta name="Emory Keith Worsham" content="WDD 131 - Dynamic Web Fundamentals">
+        <meta name="description" content="WDD 131 - Dynamic Web Fundamentals">
+        <meta name="author" content="Keith Worsham">
+        <link rel="stylesheet" href="styles/place.css">
+        <link rel="stylesheet" href="styles/placeMed.css">
+        <link rel="stylesheet" href="styles/placeLarge.css">
+        <script src="scripts/place.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <header>
+        <h1>Georgia</h1>
+    </header>
+
+    <main>
+        <div class="georgia">
+            <img src="images/hero-small-ga.webp" alt="State">
+        </div>
+
+        <section id ="data">
+            <h2>Data</h2>
+            <div>
+                <ul id="label">
+                    <li>Area:</li>
+                    <li>Population:</li>
+                    <li>Capital:</li>
+                    <li>Languages:</li>
+                    <li>Currency:</li>
+                    <li>Time Zone:</li>
+                </ul>
+            </div>
+            
+            <div>
+                <ul id="value">
+                    <li>57,701.1 sq ml</li>
+                    <li>10.91 Million</li>
+                    <li>Atlanta</li>
+                    <li>English</li>
+                    <li>Dollar</li>
+                    <li>Eastern Standard</li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section id="weather">
+            <h2>Weather</h2>
+            <img src="images/weather.webp" alt="cloud">
+            
+            <div>
+                <ul id="label">
+                    <li>Temperature:</li>
+                    <li>Conditions:</li>
+                    <li>Wind:</li>
+                    <li>Wind Chill:</li>
+                </ul>
+            </div>
+            
+            <div>
+                <ul id="value">
+                    <li id="temp"></li>
+                    <li id="cond"></li>
+                    <li id="wind"></li>
+                    <li id="wChill"></li>
+                </ul>
+            </div>            
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> | Emory Keith Worsham | Georgia</p>
+        <p id="lastModified"></p>
+    </footer>
+    
+</body>
+</html>
