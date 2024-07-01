@@ -8,7 +8,6 @@
         <meta name="description" content="WDD 131 - Dynamic Web Fundamentals">
         <meta name="author" content="Keith Worsham">
         <link rel="stylesheet" href="styles/place.css">
-        <link rel="stylesheet" href="styles/placeMed.css">
         <link rel="stylesheet" href="styles/placeLarge.css">
         <script src="scripts/place.js" defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +21,10 @@
 
     <main>
         <div class="georgia">
-            <img src="images/hero-small-ga.webp" alt="State">
+            <picture>
+                <source media="(min-width: 500px)" srcset="images/hero-large-ga.webp">
+                <img src="images/hero-small-ga.webp" alt="State">
+            </picture>
         </div>
 
         <section id ="data">
@@ -46,14 +48,13 @@
                     <li>English</li>
                     <li>Dollar</li>
                     <li>Eastern Standard</li>
-
                 </ul>
             </div>
         </section>
 
         <section id="weather">
             <h2>Weather</h2>
-            <img src="images/weather.webp" alt="cloud">
+            <img src="images/weather.webp" alt="cloud"> </img>            
             
             <div>
                 <ul class="label">
@@ -66,9 +67,9 @@
             
             <div>
                 <ul class="value">
-                    <li id="temp"></li>
-                    <li id="cond"></li>
-                    <li id="wind"></li>
+                    <li>95&deg;F</li>
+                    <li>Sunny</li>
+                    <li>15 mph</li>
                     <li id="chill"></li>
                 </ul>
             </div>            

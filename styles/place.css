@@ -1,9 +1,9 @@
 @media (max-width: 500px) {
     li {
-        display: block;
         color:rgb(224, 42, 42);
     }
 } 
+
 header {
     text-align: center;
     color: white;
@@ -14,8 +14,8 @@ header {
 
 .georgia img{
     width: 100%;
-    height: auto;  
-}
+    /* height: 25px;   */
+} 
 
 #data h2, #weather h2 {
     text-align: center;
