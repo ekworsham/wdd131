@@ -32,4 +32,13 @@ main {
     margin: 1rem;
     padding-bottom: none;
 }
+
+.w {
+    display: none !important;
+}
+
+#weather h2::after {
+    content: "☀️";
+}
+
 }
