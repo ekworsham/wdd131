@@ -39,5 +39,8 @@ main {
 #weather h2::after {
     content: "☀️";
 }
-
+#data h2::before {
+    content: "🏈";
 }
+}
+
