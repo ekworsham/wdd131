@@ -25,7 +25,7 @@
                 </label>
             </section>
 
-            <section>
+            <section class="or">
                 <div class="stars">Overall Rating</div>
                 <label><input type="radio" name="audience" id="1star" required>⭐</label>
                 <label><input type="radio" name="audience" id="2star" required>⭐⭐</label>
@@ -38,18 +38,25 @@
                 <label>Date of Installation<input type="date" name="completeDate" id="date" required></label>
             </section>
 
-            <section>
+            <section class="cbs">
                 <div class="useful">Which features did you find useful in the product?</div>
                 <p>(Check all that apply)</p>
-                <label><input type="checkbox" name="durable" value="yes"> Durability</label>
-                <label><input type="checkbox" name="ease" value="yes"> Ease of Use</label>
-                <label><input type="checkbox" name="perform" value="yes"> Performance</label>
-                <label><input type="checkbox" name="design" value="yes"> Design</label>
+                <label><input type="checkbox" name="durable" id="d" value="yes"> Durability</label>
+                <label><input type="checkbox" name="ease" id="e" value="yes"> Ease of Use</label>
+                <label><input type="checkbox" name="perform" id="p" value="yes"> Performance</label>
+                <label><input type="checkbox" name="design" id="de" value="yes"> Design</label>
             </section>
 
+            <section>
+                <div class="wr">Written Review (Optional)</div>
+                <label><textarea name="review" id="r"></textarea></label>  
+                <div class="name">Your Name (Optional)</div>
+                <label><textarea name="name" id="n"></textarea></label> 
+            </section>
 
-
-
+            
+            <input type="submit" value="Post Review">
+            
 
             </form>
     </main>
