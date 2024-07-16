@@ -1,7 +1,7 @@
 header {
     background-color: gray;
     text-align: center;
-    color: white;
+    color: rgb(8, 8, 8);
     padding: .75rem;
 }
 
@@ -54,14 +54,14 @@ form{
     max-width: 400px;
     box-shadow: 5px 5px 5px #b35050;
     appearance: none;
-
 }
+
 
 footer {
     background-color:gray;
     font-size: 20px;
     text-align: center;
-    color:white;
+    color:rgb(10, 9, 9);
     padding: .2rem;
     
 }
