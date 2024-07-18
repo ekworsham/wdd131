@@ -18,6 +18,7 @@ hamburgerElement.addEventListener('click', () => {
 
 const temples = [
     {
+      
       templeName: "Aba Nigeria",
       location: "Aba, Nigeria",
       dedicated: "2005, August, 7",
@@ -88,14 +89,6 @@ const temples = [
       area: 10700,
       imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/adelaide-australia/400x225/adelaide-australia-temple-lds-866420-wallpaper.jpg"
-    },
-    {
-      templeName: "Anchorage Alaska Temple",
-      location: "Anchorage, Alaska",
-      dedicated: "1999, January, 9",
-      area: 11937,
-      imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/anchorage-alaska/400x225/anchorage-temple-lds-253274-wallpaper.jpg"
     },  
 ];
 

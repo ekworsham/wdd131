@@ -38,13 +38,21 @@ ul {
 
 main {
     text-align: center;
-    max-width: 1000px;
+    
 }
 figure {
     margin: auto;
     grid-template-columns: 1fr;
 }
 
+.res-grid {
+    background-color:rgb(108, 33, 206);
+    display: grid;
+    grid-gap: 1rem;
+    color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
 
 /* This is for the hamburger  icon */
 

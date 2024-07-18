@@ -1,0 +1,45 @@
+@media only screen and (min-width: 38rem) {
+    #myButton {
+        display: none;
+    }
+
+    h1, h2 {
+      margin: 0 auto;  
+    }
+
+    h1{
+        padding-top: .75rem;
+    }
+
+    ul.menuLinks, ul.menuLinks.open {
+        display: flex;
+        padding: 0%;
+        justify-content: center;
+        grid-gap: 2rem;
+    }
+
+    ul.menuLinks a:hover {
+        background-color: rgba(255,255,255,0.2);
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    } 
+
+    header {
+        background-color: #a1a688;
+        display: grid;
+        grid-gap: .2rem;
+        grid-template-columns: .7fr 1.5fr 3.5fr;
+        padding-left: 1rem;
+        padding-top: .5rem;
+        text-align: left; 
+    }
+    h1  {
+        font-size: 60px;  
+    }
+
+    .menuLinks {
+        /* font-size: 100px; */
+    }
+}
