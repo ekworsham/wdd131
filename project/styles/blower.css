@@ -51,9 +51,9 @@ ul.menuLinks.open {
 /*This is for the body*/
 
 
-html {
-    /* background-color: #ceb992; */
-}
+/* html {
+    background-color: #ceb992;
+} */
 header img {
     mix-blend-mode: multiply;
     padding-top: .3rem ;
@@ -79,9 +79,9 @@ header {
 ul.menuLinks a:hover {
     background-color: rgba(255,255,255,0.2);
 }
-p {
-    /* background-color: #585563; */
-}
+/* p {
+    background-color: #585563;
+} */
 footer {
     /* background-color: #73937e; */
     display: grid;
