@@ -49,11 +49,6 @@ ul.menuLinks.open {
 }
 
 /*This is for the body*/
-
-
-/* html {
-    background-color: #ceb992;
-} */
 header img {
     mix-blend-mode: multiply;
     padding-top: .3rem ;
@@ -93,12 +88,4 @@ footer {
 
 /* p {
     background-color: #585563;
-} */
-/* footer {
-    background-color: ;
-    display: grid;
-    grid-gap: .2rem;
-    grid-template-columns: 1.5fr auto;
-    padding: .1rem 1rem .1rem 1rem;
-    margin: 0 AUTO; 
 } */
