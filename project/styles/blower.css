@@ -23,10 +23,10 @@
 ul.menuLinks li a {
     display: block;
     padding: .75rem 2vw;
-    color: black;
+    color:white;
     font-weight: 600;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
     
 }
 
@@ -62,11 +62,12 @@ header img {
 }
 
 h1  {
-    font-size: 20px;  
+    font-size: 30px;  
 }
 
 header {
     background-color: #a1a688;
+    color: white;
     display: block;
     grid-gap: .2rem;
     grid-template-columns: .7fr 1.5fr 3.5fr;
@@ -79,17 +80,25 @@ header {
 ul.menuLinks a:hover {
     background-color: rgba(255,255,255,0.2);
 }
+
+footer {
+    background-color:#a1a688;
+    font-size: 25px;
+    text-align: center;
+    color:white;
+    padding: 1rem;
+    font-weight: 600;
+    
+}
+
 /* p {
     background-color: #585563;
 } */
-footer {
-    /* background-color: #73937e; */
+/* footer {
+    background-color: ;
     display: grid;
     grid-gap: .2rem;
     grid-template-columns: 1.5fr auto;
     padding: .1rem 1rem .1rem 1rem;
-    margin: 0 AUTO;
-    
-    
-    
-}
+    margin: 0 AUTO; 
+} */
