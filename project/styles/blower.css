@@ -25,6 +25,11 @@ h3 {
     font-family: var(--heading-font);
 }
 
+h1 {
+
+}
+
+
 p {
     font-family: var(--paragraph-font);
 }
@@ -87,6 +92,10 @@ header img {
     min-width: 150px;
 }
 
+h1 {
+    text-align: center;
+}
+
 header {
     background-color: var(--secondary-color);
     color: white;
@@ -112,14 +121,12 @@ Main
 
 main {
     display: grid;
-    grid-template-rows: .25rem 18rem;
-    padding-bottom: 2rem;
+    padding-bottom: .75rem;
    }
 
 h1  {
     font-size: 30px;  
     margin: 0;
-    padding-left: 1rem;
 }
 
 .a {
@@ -127,12 +134,14 @@ h1  {
     text-align: center;
     color: white;
     font-weight: 600;
+    margin: 0 auto;
 }
 .b {
     font-size: 1rem;
     text-align: center;
     color: white;
     font-weight: 10;
+    margin-top: 1rem;
 }
 
 #logIn {
@@ -142,16 +151,21 @@ h1  {
     border-radius: 15%;
     border: solid 3.5px black;
     display:block; 
-    margin: 0 auto
+    margin: 25px auto;
+    display: grid;
  }
+
  
-#team {
+#img{
+    display: grid;
+
     border: solid 5px black;
     border-radius: 5%;
     max-width: 220px;
-    display: block; 
     margin: 0 auto;
 }
+
+
 
 /*******************************
 Footer
@@ -162,7 +176,7 @@ footer {
     font-size: 15px;
     text-align: center;
     color:white;
-    padding: 1rem;
+    padding: .25rem;
     font-weight: 600; 
 }
 
