@@ -1,4 +1,37 @@
-/* This is for the hamburger  icon */
+/******************************
+Variables
+********************************/
+:root {
+    --primary-color: #ceb992;
+    --secondary-color: #a1a688;
+    --accent1-color: #73937e;
+    --accent2-color: #585563;
+
+    --heading-font: "Galindo";
+    --paragraph-font: Texturina, Helvetica, sans-serif;
+}
+
+/*******************************
+Default Tags
+********************************/
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1,
+h2, 
+h3 {
+    font-family: var(--heading-font);
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+/*******************************
+This is for the hamburger  icon 
+********************************/
 #myButton {
     font-size: 2rem;
     background: none;
@@ -19,15 +52,13 @@
     color: black;
 }
     
-
 ul.menuLinks li a {
     display: block;
     padding: .75rem 2vw;
     color:white;
     font-weight: 600;
     text-decoration: none;
-    font-size: 25px;
-    
+    font-size: 25px;   
 }
 
 li.currrent-menu-item a {
@@ -48,44 +79,94 @@ ul.menuLinks.open {
     display: block;
 }
 
-/*This is for the body*/
+/*********************************
+HEADER
+**********************************/
 header img {
     mix-blend-mode: multiply;
-    padding-top: .3rem ;
-    max-width: 100%;
     min-width: 150px;
 }
 
-h1  {
-    font-size: 30px;  
-}
-
 header {
-    background-color: #a1a688;
+    background-color: var(--secondary-color);
     color: white;
     display: block;
     grid-gap: .2rem;
     grid-template-columns: .7fr 1.5fr 3.5fr;
-    padding-left: 1rem;
-    padding-top: .5rem;
     text-align: left;
-    
-    
 }
 ul.menuLinks a:hover {
-    background-color: rgba(255,255,255,0.2);
+    background-color: var(--accent2-color);
+}
+/**********************************
+Body
+***********************************/
+body{
+    background-attachment: fixed;  
+
 }
 
+/**********************************
+Main
+***********************************/
+
+main {
+    display: grid;
+    grid-template-rows: .25rem 18rem;
+    padding-bottom: 2rem;
+   }
+
+h1  {
+    font-size: 30px;  
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.a {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.b {
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    font-weight: 10;
+}
+
+#logIn {
+    font-size: 1.5rem;
+    background-color: #585563;
+    color: white;
+    border-radius: 15%;
+    border: solid 3.5px black;
+    display:block; 
+    margin: 0 auto
+ }
+ 
+#team {
+    border: solid 5px black;
+    border-radius: 5%;
+    max-width: 220px;
+    display: block; 
+    margin: 0 auto;
+}
+
+/*******************************
+Footer
+********************************/
 footer {
+    font-family: var(--paragraph-font);
     background-color:#a1a688;
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
     color:white;
     padding: 1rem;
-    font-weight: 600;
-    
+    font-weight: 600; 
 }
 
-/* p {
-    background-color: #585563;
-} */
+footer img {
+    width: 30px;
+}
+

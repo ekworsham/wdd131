@@ -1,4 +1,4 @@
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 960px) {
     #myButton {
         display: none;
     }
@@ -21,11 +21,13 @@
     ul.menuLinks a:hover {
         background-color: rgba(255,255,255,0.2);
     }
+
     .container {
         display: flex;
         flex-wrap: wrap;
     } 
 
+    /* index html */
     header {
         background-color: #a1a688;
         display: grid;
@@ -33,10 +35,15 @@
         grid-template-columns: .7fr 1.5fr 3.5fr;
         padding-left: 1rem; 
         padding-top: .5rem;
-        text-align: left; 
+        text-align: left;   
     }
+
     h1  {
         font-size: 60px;  
+    }
+
+    #team {
+        max-width: 75%;
     }
 
    
