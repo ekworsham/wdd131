@@ -25,17 +25,12 @@ h3 {
     font-family: var(--heading-font);
 }
 
-h1 {
-
-}
-
-
 p {
     font-family: var(--paragraph-font);
 }
 
 /*******************************
-This is for the hamburger  icon 
+This is for the hamburger icon 
 ********************************/
 #myButton {
     font-size: 2rem;

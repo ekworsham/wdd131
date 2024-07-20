@@ -1,13 +1,14 @@
+/*****************************
+Large View Only
+******************************/
 @media only screen and (min-width: 960px) {
     #myButton {
         display: none;
     }
 
-    h1, h2 {
-      margin: 0 auto;  
-    }
-
-    
+    /********************
+    Header
+    *********************/
     ul.menuLinks, ul.menuLinks.open {
         display: flex;
         padding: 0%;
@@ -19,11 +20,7 @@
         background-color: rgba(255,255,255,0.2);
     }
     
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-    } 
-    
+ 
     /**********************
     Home Header
     **********************/
@@ -43,7 +40,7 @@
     }
     
     
-     /**********************
+    /**********************
     Footer
     **********************/
     footer {
@@ -53,6 +50,11 @@
     #img {
         max-width: 75%;
     }
+
+
+
+
+
+
     
-   
 }
