@@ -297,6 +297,13 @@ Review
     color: black;
     text-align: center;
     font-size: 3rem;
+
+
+} 
+
+.unit img {
+    max-width: 15rem;
+    mix-blend-mode: multiply;
 }
 
 /*******************************
