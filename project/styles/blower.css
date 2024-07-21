@@ -160,7 +160,62 @@ h1  {
     margin: 0 auto;
 }
 
+/*******************************
+Blower html
+*********************************/
+.title {
+    font-weight: 600;
+    font-size: 20px;
+}
+.blower {
+    background-color: honeydew;
+}
 
+.part1, 
+.part2,
+.part3 {
+    text-align: justify;
+}
+
+#intro {
+    font-size: 1.5rem;
+}
+
+.part1 {
+    mix-blend-mode: multiply;
+}
+.part2 img {
+    max-width: 200px;
+    margin-left: 2.25rem;
+    border: solid 2px black;
+    border-radius: 5%;
+    
+}
+
+/*******************************
+BlowerMaint
+*********************************/
+.blowerMaint {
+    background-color: honeydew;
+}
+.part4 {
+    text-align: justify;
+}
+
+.part4 img,
+.part6 img {
+    mix-blend-mode: multiply;
+}
+
+.part5 img {
+    max-width: 100px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+p {
+    margin-bottom: 0;
+}
 
 /*******************************
 Footer
