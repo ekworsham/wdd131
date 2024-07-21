@@ -80,11 +80,11 @@ Large View Only
     }
 
     .part4, .part6 {
-    padding-top: 1rem;
-    display: grid;
-    grid-template-columns: .5fr 1fr;
-    border: solid 5px black;
-    padding-right: 1rem;
+        padding-top: 1rem;
+        display: grid;
+        grid-template-columns: .5fr 1fr;
+        border: solid 5px black;
+        padding-right: 1rem;
     }
 
     .part5 img {
@@ -96,11 +96,11 @@ Large View Only
     }
 
     .part5 {
-    padding-top: 1rem;
-    display: grid;
-    grid-template-columns: .5fr 1fr;
-    padding-right: 1rem;
-    margin-bottom: 2rem;
+        padding-top: 1rem;
+        display: grid;
+        grid-template-columns: .5fr 1fr;
+        padding-right: 1rem;
+        margin-bottom: 2rem;
     }
     #part5 {
         margin-left: 0rem;
@@ -148,11 +148,13 @@ Large View Only
     form
     **********************/
     .formPage {
-        margin-left: 25rem;
+        padding-left: 25rem;
     }
     .unit img {
         max-width: 15rem;
+        mix-blend-mode: multiply;
     }
+
 
     #blowers {
         display: grid;
