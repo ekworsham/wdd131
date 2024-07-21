@@ -163,7 +163,7 @@ h1  {
 }
 
 /*******************************
-Blower html
+Blower operations
 *********************************/
 .title {
     font-weight: 600;
@@ -209,6 +209,11 @@ BlowerMaint
     mix-blend-mode: multiply;
 }
 
+.part6 img {
+    max-width: 8rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
 .part5 img {
     max-width: 100px;
     margin-left: 5rem;
@@ -222,6 +227,12 @@ p {
 /*******************************
 FORM
 ********************************/
+.formPage {
+    color: white;
+    font-size: 1.5rem;
+}
+
+
 .wk5 select {
     padding: .75rem;
     width: 100%;
@@ -254,7 +265,7 @@ FORM
     max-width: 400px;
 }
 
-.wk5 input[type="submit"] {
+.wk5 button {
     border: none;
     background-image: linear-gradient(#161413, #584540);
     color: #fff;
@@ -267,8 +278,25 @@ FORM
     max-width: 400px;
     box-shadow: 5px 5px 5px #b35050;
     appearance: none;
+    cursor: pointer;
 }
 
+.wk5 button:hover {
+    color: hotpink;
+}
+
+/*******************************
+Review
+********************************/
+#number {
+    background-color: honeydew;
+    margin: 0 auto;
+    padding: 1rem;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+}
 
 /*******************************
 Footer

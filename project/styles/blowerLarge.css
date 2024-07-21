@@ -89,7 +89,7 @@ Large View Only
 
     .part5 img {
         max-width: 200px;
-        margin-left: 0px;
+        margin-left: 5rempx;
         margin-top: 1rem;
         border: solid 1px black;
         border-radius: .5rem;
@@ -98,17 +98,17 @@ Large View Only
     .part5 {
     padding-top: 1rem;
     display: grid;
-    grid-template-columns: 1fr .5fr;
+    grid-template-columns: .5fr 1fr;
     padding-right: 1rem;
     margin-bottom: 2rem;
     }
     #part5 {
-        margin-left: 25rem;
+        margin-left: 0rem;
     }
 
     .part6 img{
         max-width: 200px;
-        margin-left: 15rem;
+        margin-left: 5rem;
         margin-top: 1rem;
     }
     #part6 {
@@ -144,6 +144,29 @@ Large View Only
         padding-top: .75rem;
     }
     
+     /**********************
+    form
+    **********************/
+    .formPage {
+        margin-left: 25rem;
+    }
+    .unit img {
+        max-width: 15rem;
+    }
+
+    #blowers {
+        display: grid;
+        grid-template-columns: .25fr .25fr .25fr;
+        grid-gap: .5rem;
+    }
+
+    #blowers h2 {
+        grid-column: 1/4;
+        text-align: center;
+    }
+
+
+
     
     /**********************
     Footer
