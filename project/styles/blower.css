@@ -139,7 +139,7 @@ h1  {
     margin-top: 1rem;
 }
 
-#logIn {
+#register {
     font-size: 1.5rem;
     background-color: #585563;
     color: white;
@@ -147,7 +147,9 @@ h1  {
     border: solid 3.5px black;
     display:block; 
     margin: 25px auto;
-    display: grid;
+    max-width: 20rem;
+    text-align: center;
+    text-decoration: none;
  }
 
  
@@ -216,6 +218,57 @@ BlowerMaint
 p {
     margin-bottom: 0;
 }
+
+/*******************************
+FORM
+********************************/
+.wk5 select {
+    padding: .75rem;
+    width: 100%;
+    max-width: 400PX;
+}
+
+.or, .cbs, .wr, .pn, .date {
+    display: grid;
+    padding: 1.25rem;
+}
+
+.wk5 input[type="date"] {
+    padding-top: .375rem;
+    padding-bottom: .375rem;
+    padding-left: .75rem;
+    display: block;
+    width: 100%;
+    max-width: 385px;
+}
+
+.cbs p {
+    margin-top: 0px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.wk5 label [type="review"] {
+    padding: .75rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+.wk5 input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(#161413, #584540);
+    color: #fff;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: .75rem;
+    width: 90%;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    max-width: 400px;
+    box-shadow: 5px 5px 5px #b35050;
+    appearance: none;
+}
+
 
 /*******************************
 Footer
