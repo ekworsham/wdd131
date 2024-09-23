@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dropdown Navigation</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+    select {
+        padding: 10px;
+        font-size: 16px;
+    }
+</style>
+</head>
+<body>
+    <h2>Choose a page to visit:</h2>
+    <select id="pageSelection" onchange="navigate()">
+        <option value="">Select a page...</option>
+        <option value="https://www.example.com/page1">Page 1</option>
+        <option value="https://www.example.com/page2">Page 2</option>
+        <option value="https://www.example.com/page3">Page 3</option>
+    </select>
+
+    <script>
+        function navigate() {
+            var selectedPage = document.getElementById("pageSelection").value;
+            if (selectedPage !== "") {
+                window.location.href = selectedPage;
+            }
+        }
+    </script>
+</body>
+</html>
